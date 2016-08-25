@@ -2,7 +2,7 @@ import java.io.*;
 public class Gcd {
 	public static int GCD(int a, int b) {
 	    if (b == 0) return a;
-	    else return (GCF (b, a % b));
+	    else return (GCD (b, a % b));
 	}
 	public static void main(String[] args) {
 		int x=9,y=24,gcd;          
