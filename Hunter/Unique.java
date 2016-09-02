@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Unique
 {
   public static void main(String[] args) 
@@ -22,7 +21,7 @@ public class Unique
 			else
 				System.out.println(arr[i]);
 		}
-  sc.close();
+		 sc.close();
 	}
 
 }
